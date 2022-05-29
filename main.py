@@ -8,7 +8,7 @@ app = FastAPI()
 
 @app.get("/")
 def home():
-    return {"Hello": "World from FastAPI"}
+    return {"Hello": "Your dum"}
 
 # get random number between min(default:0) and max(default:9)
 @app.get("/random/")
